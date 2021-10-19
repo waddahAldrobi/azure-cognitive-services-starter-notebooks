@@ -38,7 +38,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: wad-sa
+  name: lb-sa
 spec:
   type: LoadBalancer
   ports:
